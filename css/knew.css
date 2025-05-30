@@ -1,0 +1,38 @@
+.submission-sec {
+    margin-bottom: 100px;
+}
+.submission-sec .row{
+    align-items: center;
+}
+.billingDetailForm form input[type=submit] {
+border: 2px solid #00bd9b;
+background: #00bd9b;
+padding: 5px 10px;
+border-radius: 30px;
+color: #fff;
+cursor: pointer;
+}
+
+.billingDetailForm form input[type=submit]:hover {
+background: #000;
+}
+
+.paywall-sec h4 img{
+    width: auto;
+}
+.paywall-sec p.price {
+    color: #00bd9b;
+    font-size: 20px;
+    font-weight: 700;
+}
+.paywall-sec p.price > span {
+    display: block;
+    font-size: 14px;
+    color: #6c757d;
+    font-weight: 500;
+}
+@media only screen and (max-width:767px){
+    .submission-sec .row{
+        flex-direction: column-reverse;
+    }
+}
